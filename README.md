@@ -23,7 +23,10 @@ All protocols are optional and parameters will be set to NaN in the results if t
 * f/I curve: progressively depolarizing current injections (typically
 * from +20 pA, dI: 50 pA)
 
-## Typical protocols for optimal analysis
+## Saved results
 All values are exported in an excel file with the recording name (extracted from I/V protocol). All missing values are set as NaN.
+
+## Use
+Run IMP.m pipeline, which runs all the required functions sequentially.
 
 Marco Bocchio, last update 17/4/2019
